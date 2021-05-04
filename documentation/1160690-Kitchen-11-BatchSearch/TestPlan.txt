@@ -1,0 +1,12 @@
+#UC 12- Batch Search
+
+1 -> Run Cafeteria Backoffice
+2 -> Login with: 
+	user: kitchen
+	password: Password1
+3-> Select 6 (Traceability)
+4-> Select 5 (Search meals by batch)
+5-> Select desired batch 
+6-> Meals will be shown if they have the same batch
+7-> If you want to continue select 1 otherwise 0.
+8-> Done

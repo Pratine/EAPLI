@@ -1,0 +1,10 @@
+
+	TEST PLAN
+______________________
+	Consultar Menus para as próximas semanas
+	_______________________________
+
+	1. Fazer o login como 900330/Password1 (porque é um cafeteria user)
+	2. Escolher a opção Booking  >  Consult Menu(opção 4)
+	3. Mostrar o respectivo menu
+	4. Escolher 0 para voltar ao menu anterior

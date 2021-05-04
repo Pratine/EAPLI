@@ -1,0 +1,11 @@
+﻿ANÁLISE
+---------
+
+O Gestor de Cozinha usam esta função (Close Menu Plan) para que um dado Menu PLan seja concluido e enviado para a cozinha para posterior confecção.
+O Menu PLan é caraterizado pela data da semana.
+
+-------------------
+ REGRAS DE NEGÓCIO
+-------------------
+
+Um Menu Plan é relativo a uma e apenas uma semana.

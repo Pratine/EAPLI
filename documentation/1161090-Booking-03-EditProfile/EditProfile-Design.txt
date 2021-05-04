@@ -1,0 +1,7 @@
+﻿---------------
+DESIGN
+---------------
+Classes de Domínio: CafeteriaUser, Allergen, Profile
+Controller: EditProfileController
+UI: EditProfileUI, EditAllergensListUI
+Repository: CafeteriaUserRepository

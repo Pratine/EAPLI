@@ -1,0 +1,25 @@
+Make sure there are meals in the database before starting.
+Make sure there are shifts before starting.
+
+Step 1-
+Go to:
+ecafeteria.app.pos.console and run ECafeteriaPOS or
+CafeteriaShutdownUI (it is the same).
+
+Step 2-
+Login with:
+Username: cashier
+Password: Password1
+
+Step 3-
+A menu will appear. Select option 7 (Shutdown Cafeteria Shift)
+
+Step 4-
+For each meal  (select the meal [1,2,3...]).
+Insert the wasted amount and save it.
+
+Step 5-
+Select the shutdown option (1).
+
+Exit the program and that's it.
+

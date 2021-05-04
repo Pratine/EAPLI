@@ -1,0 +1,6 @@
+------------------
+ANALYSIS
+------------------
+
+The kitchen user aks the system the bookings for a specific day and the system returns
+a list of bookings and the CafeteriaUsers that made that bookings.

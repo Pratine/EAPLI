@@ -1,0 +1,47 @@
+	_________
+
+	DESIGN
+	_________
+
+	* Utilizar a estrutura base standard da aplicação baseada em camadas
+
+   	Classes do domínio:  
+		Meal, MealType. 
+		Meal é um agregado independente de MealType
+			- relação unidirecional many-to-one
+			- cascade NONE
+			- fetch EAGER
+   	Controlador: RegisterMealsMadeController
+   	Repository: MealRepostiory
+
+
+	Diagrama de Sequência - websequencediagrams.com source
+
+		title  UC - Registar Refeicoes Efetivamente Feitas
+
+		participant ":User" as user
+		participant ":RegisterMealsMadeUI" as ui
+		participant ":RegisterMealsMadeController" as controller
+		participant ":Meal" as domain
+		participant ":MealRepository" as repo
+
+		ui-->controller:create()
+
+		ui-->user:pede a data
+		user->ui:insere a data
+
+		ui-->user:pede para selecionar uma refeiçao
+		user->ui:seleciona
+
+		ui-->user:pede para inserir a quantidade de pratos confecionados
+		user->ui:insere
+
+		ui->controller:setQuantidade(Meal meal, int quantidade);
+		controller-->domain:setQuantidade(Meal meal, int quantidade);
+
+		ui-->user:salvar?
+		user->ui:sim
+
+		ui->controller:save(Meal meal);
+		controller-->repo:save(Meal meal);
+		

@@ -1,0 +1,7 @@
+---------------
+DESIGN
+---------------
+Classes de Domínio: Booking, Meal, CafeteriaUser
+Controller: ShowBookingByDayController
+UI: ShowBookingByDayUI
+Repository: BookingRepository

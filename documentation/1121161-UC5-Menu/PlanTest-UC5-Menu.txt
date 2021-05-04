@@ -1,0 +1,21 @@
+Test Plan
+
+1. Fazer o login como chef/Password1
+2. Escolher a opcao "10. Menu"
+3. Escolher a opção "2. Copy Menu"
+4. Escolher Menu
+5. Introduzir data de inicio
+6. Introduzir data de final
+7. Guardar Menu
+8. Escolher a opcao "10. Menu"
+9. Escolher a opção "2. Copy Menu"
+10. Verificar que foi criado Menu
+11. Escolher Menu
+12. Nao guardar Menu
+13. Escolher a opcao "10. Menu"
+14. Escolher a opção "2. Copy Menu"
+15. Ver que nao foi criado Menu
+16. Esolher data final Maior que data inicial
+17. Verificar erro
+18. Esolher data final e data inicial que coincidam com outros menus
+19. Verificar erro

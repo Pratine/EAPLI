@@ -1,0 +1,55 @@
+	_________
+
+	DESIGN
+	_________
+
+	* Utilizar a estrutura base standard da aplicação baseada em camadas
+
+   	Classes do domínio:  
+		Dish, DishType, NutricionalInfo. 
+		Dish é um agregado independente de DishType
+			- relação unidirecional many-to-one
+			- cascade NONE
+			- fetch EAGER
+		nome do prato é do tipo Designation (framework)
+		NutricionalInfo é um value object que faz parte do agregado Dish
+			- relação unidireccional one-to-one
+			- cascade ALL
+			- fetch EAGER
+
+   	Controlador: RegisterDishController
+   	Repository: DishRepository
+
+
+	Diagrama de Sequência - websequencediagrams.com source
+
+		title SD - Register Dish
+
+		participant ":RegisterDishUI" as ui
+		participant ":RegisterDishController" as ctrl
+		participant ":PersistenceContext" as pc
+		participant ":RepositoryFactory" as rf
+		participant ":DishTypeRepository" as repoDT
+		participant ":NutricionalInfo" as ni
+		participant ":Dish" as dish
+		participant ":DishRepository" as repo
+
+		ui->ctrl:create
+		ui->ctrl:getDishTypes
+		ctrl->pc:repositories()
+		pc->rf:create
+		rf->repoDT:create
+		ctrl->repoDT:findAll
+		ctrl-->ui:DishTypes
+
+		ui->ui:doShow()
+		ui->ctrl:registerDish(type, name, cal, salt)
+
+		ctrl->ni:ni = create(cal, salt)
+		ctrl->dish:newDish = create(type, name, ni)
+
+		ctrl->pc:repositories()
+		pc->rf:create
+		rf->repo:create
+		ctrl->repo:save(newDish)
+		

@@ -1,0 +1,10 @@
+	_________
+
+	DESIGN
+	_________
+
+	* Utilizar a estrutura base standard da aplicação baseada em camadas
+
+   	Classes do domínio:  Movements, CafeteriaUser e classes associadas
+   	Controlador: CardChargementController
+   	Repository: CafeteriaUserRepository e MovementsRepository

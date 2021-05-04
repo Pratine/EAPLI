@@ -1,0 +1,9 @@
+TEST PLAN
+--------------------------
+KITCHEN 2 - SHOW BOOKINGS BY DAY
+
+1. Correr o eapli.ecafeteria.app.backoffice.console.ECafeteriaBackoffice
+2. Fazer login com o username Kitchen e password Password1
+3. Escolher a opção 8 (Booking)
+4. Inserir o dia para teste
+5. Verificar os dias apresentados e o utilizador da reserva(s)

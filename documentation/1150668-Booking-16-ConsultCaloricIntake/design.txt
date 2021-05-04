@@ -1,0 +1,9 @@
+﻿	_________
+
+	DESIGN
+	_________
+
+   	Classes do domínio:  classes para obter o utente atual
+   	Controlador: ConsultCaloricIntakeController
+   	Repository: CafeteriaUserRepository e BookingRepository
+	Outras classes: PersistenceContext e RepositoryFactory

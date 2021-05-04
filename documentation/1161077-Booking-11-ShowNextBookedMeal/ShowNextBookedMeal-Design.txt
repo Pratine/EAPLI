@@ -1,0 +1,7 @@
+﻿---------------
+DESING
+---------------
+Classes de Domínio: Booking, Meal, CafeteriaUser
+Controller: ShowNextBookedMealController
+UI: CafeteriaUserBaseUI
+Repository: BookingRepository, CafeteriaUserRepository

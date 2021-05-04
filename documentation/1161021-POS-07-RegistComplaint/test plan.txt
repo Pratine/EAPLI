@@ -1,0 +1,15 @@
+--------------------
+
+TEST PLAN 
+
+--------------------
+
+1.fazer login com cashier/Password1
+2.escolher a opção 8
+3.inserir um texto que descreva a reclamação
+4.Inserir 1 se pretende selecionar a refeição a que se refere a reclamação (caso insira 0 saltar para o passo 7)
+5. Inserir a data da refeição (YYYY/MM/DD)
+6. Selecionar a refeição inserindo o respetivo número.
+7. Inserir 1 se pretende identificar o utilizador (caso insira 0 salta para o passo 9)
+8. Inserir o número mecanográfico.
+9. Reclamação registada com sucesso.

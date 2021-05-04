@@ -1,0 +1,10 @@
+﻿
+	TEST PLAN
+______________________
+	Cancelar reserva
+	_______________________________
+
+	1. Fazer o login como 900331/Password1 (porque é um cafeteria user)
+	2. Escolher a opção Booking (opção 2)  
+	3. Selecionar CancelBooking (opção 6)
+	4. Selecionar qual reverva que pretende cancela

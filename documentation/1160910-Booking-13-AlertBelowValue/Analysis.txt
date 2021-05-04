@@ -1,0 +1,22 @@
+Analysis - UC - Alert user if user's balance goes below N value
+
+After a booking is done, the user is alerted that it's balance is below a limit defined with another use case
+
+----------------------------------------------------------------------------------------------------------------------
+
+Event -> after booking if balance < limit
+	
+	when is it activated?
+		CreatedBookingEvent
+		
+		|
+		v
+		
+		quem publica?				| BookMealController
+		quando? 					| no sucesso do UC
+		quem sao os observadores? 	| BalanceLimitCheckWatchdog
+										- lançar o evento --------------> BalanceUnderLimitEvent -> quem observa? | UserInterface
+										- nova classe
+										- singleton
+								  
+		

@@ -1,0 +1,13 @@
+Analysis - UC - Cafeteria Shutdown
+
+When the day is over the kitchen manager will 
+collect data about the specific amount of wasted meals
+and will inform the system about it.
+After that the kitchen manager will shutdown 
+the cafeteria so that no more operations can be done
+on the given day.
+
+The CafeteriaShift will have a CafeteriaShiftState
+attribute. The CafeteriaShiftState can be "open" 
+or "closed". Once the kitchen manager shuts down
+the cafeteria, the state will be changed to "closed".

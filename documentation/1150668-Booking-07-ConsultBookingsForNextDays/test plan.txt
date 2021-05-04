@@ -1,0 +1,13 @@
+	
+
+	TEST PLAN
+
+	_______________________________
+	CASO 7 BOOKING: Consultar Booking para os próximos dias
+	_______________________________
+
+	1. Fazer o login como 900330/Password1 (porque é um cafeteria user)
+	2. Escolher a opção Booking  >  Consult Booking For The Next Days (opção 3)
+	3. Inserir o número de dias que queremos visualizar a partir da data de hoje
+	4. Mostrar todos os bookings nas datas selecionadas
+	5. Escolher 0 para voltar ao menu anterior

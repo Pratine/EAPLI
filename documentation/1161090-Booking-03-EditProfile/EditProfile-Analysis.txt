@@ -1,0 +1,12 @@
+------------------
+ANALYSIS
+------------------
+
+------------------Change profile (maxCalories, maxSalt)------------------
+The cafeteria user asks the system to edit maxCaloriesPerWeek, maxSaltPerWeek,maxCaloriesPerDay and maxSaltPerDay. The system aks the new values for
+each variable.
+
+------------------Change allergens list------------------
+The cafeteria user asks the system the list of allergens, the system print the list and ask if user want to add or delete allergens from his list.
+If the user want to add an allergen, the system shows a list with all the allergens and the user choose one from the list.
+If the user want to delete an allergen, the system shows a list with all the allergens from the user and he choose one from the list to delete it.

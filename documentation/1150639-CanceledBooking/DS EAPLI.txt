@@ -1,0 +1,33 @@
+title  Cancelamento de Reservas
+
+CancelamentoReservasUI->CancelamentoReservasController: create()
+
+CancelamentoReservasUI->CancelamentoReservasController: bookingsByUser()
+
+CancelamentoReservasController->PersistenceContext: repositories()
+
+PersistenceContext->RepositoryFactory: create()
+
+PersistenceContext->RepositoryFactory: bookings()
+
+RepositoryFactory->BookingRepository: create()
+
+RepositoryFactory->BookingRepository: findAllBookingByUser(user)
+
+CancelamentoReservasUI->CancelamentoReservasController: setBooking(r)
+
+CancelamentoReservasUI->CancelamentoReservasController: cancelBooking(r)
+
+CancelamentoReservasController->PersistenceContext: repositories()
+
+PersistenceContext->RepositoryFactory: bookings()
+
+RepositoryFactory->DataRepository: save(r)
+
+CancelamentoReservasUI->CancelamentoReservasController: cardChargement(r,cUser,amount,date)
+
+CancelamentoReservasController->TransactionalContext: beginTransaction()
+
+CancelamentoReservasController->DataRepository: save(newMovement)
+
+CancelamentoReservasController->TransactionalContext: commit()

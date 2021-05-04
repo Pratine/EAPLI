@@ -1,0 +1,25 @@
+title  Consulta de ementas disponíveis 
+
+ListMenusUI->ListMenusController: create()
+
+ListMenusUI->ListMenusController: listMenus()
+
+ListMenusController->ListMenu: create()
+
+ListMenusController->ListMenu: listMenus()
+
+ListMenu->PersistenceContext: repositories()
+
+PersistenceContext->RepositoryFactory: create()
+
+PersistenceContext->RepositoryFactory: menus()
+
+RepositoryFactory->MenusRepository: create()
+
+ListMenu->MenusRepository: allMenus()
+MenusRepository-->-ListMenu: Menus()
+
+ListMenu-->-ListMenusController: 
+ListMenusController-->-ListMenusUI: 
+
+ListMenusUI->ListMenusUI: show()

@@ -1,0 +1,10 @@
+﻿TEST PLAN
+--------------------------
+BOOKING 3 - EDIT PROFILE
+
+1. Correr o eapli.ecafeteria.app.user.console.ECafeteriaUserApp
+2. Fazer login com o um CafeteriaUser registado ou registar um utilizador
+3. Escolher a opção 3 (Account)
+4. Escolher a opção 2 ou 3 dependendo se pretende alterar os valor do sal 
+e das calorias ou a lista de alergénios
+5. Altera os valores pretendidos

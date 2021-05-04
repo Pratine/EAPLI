@@ -1,0 +1,17 @@
+	___________
+
+	TEST PLAN 
+	____________
+
+
+
+	1. Correr ecaferetia.app.bootstrap
+	2. Fazer login com o username kitchen em ecafeteria.app.backoffice.console
+	3. Escolher a opção 3 - Meals
+	4. Escolher a opção 1 - Register Meals Actually Made
+	5. Escolher o dia para o qual se deseja alterar a quantidade de refeições feita
+	6. Escolher a refeição que se deseja alterar
+	7. Alterar a refeição, inserindo a quantidade pretentidade
+	8. Guardar
+	9. Confirmar no repositório, na tabela Meal
+

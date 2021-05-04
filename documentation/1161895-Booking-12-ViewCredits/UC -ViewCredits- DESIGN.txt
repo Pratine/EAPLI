@@ -1,0 +1,10 @@
+	_________
+
+	DESIGN
+	_________
+
+	* Utilizar a estrutura base standard da aplicação baseada em camadas
+
+   	Classes do domínio:  CafeteriaUser e classes associadas
+   	Controlador: CafeteriaUserBaseController
+   	Repository: CafeteriaUserRepository

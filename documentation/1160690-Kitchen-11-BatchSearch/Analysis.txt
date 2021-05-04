@@ -1,0 +1,7 @@
+Analysis - UC - Kitchen #12 - BatchSearch
+
+Whenever the kitchen manager wishes/needs to know
+the meals that used a certain batch, he will select
+the desired batch and the system will return the 
+meals in which that batch was used
+(the meal list will be shown in UC Kitchen #13).

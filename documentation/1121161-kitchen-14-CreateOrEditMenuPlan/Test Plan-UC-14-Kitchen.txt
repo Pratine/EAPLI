@@ -1,0 +1,16 @@
+Test Plan
+
+1. Correr ecaferetia.app.bootstrap
+2. Fazer login com o username kitchen em ecafeteria.app.backoffice.console
+3.Escolher a opcao 9 - menu plan
+4.Escolher a opcao 1 - Create menu plan
+5.Inserir numero de refeicoes para cada meal
+6.Guardar
+7.Verificar base de dados
+8.Escolher a opcao 9 - menu plan
+9.Escolher a opcao 2 - Edit menu plan
+10.Verificar criacao de menu plan
+11.Editar menu plan
+12.Alterar apenas primeira meal
+13.Gravar
+14.Verificar base de dados 

@@ -1,0 +1,4 @@
+Analisys - UC - Card Chargement
+
+The CafeteriaUser logs in and goes to the menu. Then the program searches the username in the database and retrieves the user's details,
+including the balance, and displays it in the selected area

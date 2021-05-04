@@ -1,0 +1,3 @@
+Booking UC14 ConfigureAlertValue Analysis
+
+Permitir ao utlizador, através da UI definir o valor abaixo do qual o mesmo quer se alertado relativamente ao saldo.

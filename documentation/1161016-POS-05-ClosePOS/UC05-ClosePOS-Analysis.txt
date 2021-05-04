@@ -1,0 +1,5 @@
+Analysis UC05 Close POS
+
+The user chooses which POS to close, saving the POS's opened Work Sessions's State as closed.
+The system presents the user the sumary of the delivered meals during that work session.
+The user is automaticly logged out.

@@ -1,0 +1,20 @@
+﻿ANÁLISE
+---------
+
+O cliente utiliza a aplicação destinada aos utilizadores para consultar quantas calorias consumiu no período requisitado.
+A refeição (meal) de uma reserva (booking) é caracterizada por uma data.
+O prato (dish) é caracterizado por uma informação nutricional (nutricionalInfo) que contém a informação sobre o número de calorias associadas ao mesmo.
+
+-------------------
+ REGRAS DE NEGÓCIO
+-------------------
+
+O intervalo de tempo para a consulta é definido pelo cliente, quando este insere a data inicial e a data final de consulta.
+O cliente apenas pode consultar consumos calóricos de pratos de refeições já consumidas, ou seja, em que a reserva se encontre no estado entregue (Delivered).
+
+------------------
+ TESTES UNITÁRIOS / VALIDAÇÕES
+------------------
+É obrigatório inserir dois datas no formato requisitado (yyyy/MM/dd).
+A data inicial tem de ser anterior ou igual à data atual, para permitir um intervalo de consulta.
+A data inicial tem de ser anterior ou igual à data final, para permitir um intervalo de consulta.

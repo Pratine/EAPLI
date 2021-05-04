@@ -1,0 +1,18 @@
+-----------
+| Análise |
+-----------
+
+O cliente para utilizar a aplicação tem de se registar na aplicação.
+
+---------------------
+| Regras de Negócio |
+---------------------
+
+Um utilizador para se registar precisa de introduzir um username, uma password, primeiro nome, ultimo nome, email e numero mecanográfico
+O número mecanográfico tem de obedecer que ser ZZZZ para funcionários e AA1234 para alunos onde AA corresponde ao ano e 1234 corresponde a dígitos.
+
+--------------------
+| Testes Unitários |
+--------------------
+
+Verificar se a regras de negócio estão a ser cumpridas.

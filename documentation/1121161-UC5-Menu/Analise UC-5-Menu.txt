@@ -1,0 +1,22 @@
+Analise
+
+-O kitchen maneger copia um menu ja existente.
+-Um Menu contem uma lista de refeicoes, data de inicio e fim, titulo e id.
+-A base de dados atribui um novo id.
+
+
+Regras de Negocio
+
+-É incrementado "-copy" no final do titulo para distinguir uma copia do original.
+-As refeicoes e datas sao copiadas sem qualquer alteracao.
+-O utilizador pode escolher gravar ou nao a copia.
+-O utilizador tem de escolher uma nova data inicial e final
+-As datas nao podem coincidir com outros menus
+
+
+Testes
+
+Menu
+
+*construtorTest
+*construtorCopiaTest

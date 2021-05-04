@@ -1,0 +1,16 @@
+
+Utilizar a estrutura base standard da aplicacao baseada em camadas
+
+	Classes do dominio:  
+	Meal, MealPlan, MenuPlan,Menu. 
+	MenuPlan é um agregado de MealPlan
+		- relacao one-to-Many
+	Controlador: CreateOrEditMenuPlan
+	Repository: MenuPlanRepostiory,MealPlanRepository
+
+
+Diagrama de Sequencia 
+
+	title  UC - Criar ou Editar Menu Plan
+
+	ver imagem sd

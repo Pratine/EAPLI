@@ -1,0 +1,10 @@
+Analise
+
+O kitchen Maneger usa aplicacao kitchen backoffice para criar ou editar Menu Plan, o que consiste em atribuir um numero de pratos a uma dada meal de um dado menu. 
+Um menu plan é caracterizado por um conjunto de meal plans
+Um meal plan é caracterizado por uma refeicao e o seu devido numero de partos a serem consumidos
+
+Regras de Negocio
+
+O sistema so pode apresentar menu plans que se encontrem em progresso quando é escolhida a opção de editar.
+O numero de pratos não pode ser menor que 0, caso aconteça o sistema automaticamente insere a quantidade como 0.

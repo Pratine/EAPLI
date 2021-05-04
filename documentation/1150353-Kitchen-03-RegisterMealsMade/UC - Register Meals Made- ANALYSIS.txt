@@ -1,0 +1,24 @@
+	___________
+
+	ANÁLISE 
+	____________
+
+
+
+	* o "kitchen manager" utiliza a aplicação de backoffice para registar a quantidade de refeições efectivamente
+		confeccionadas por dia/tipo/prato/refeição
+	* uma refeição é caracterizada pelo prato, pelo tipo (almoço ou jantar) e pela data
+
+
+	______________________
+
+	REGRAS DE NEGÓCIO
+	_____________________
+
+
+	* o nome de um prato tem que ser único no sistema
+	* o preço é sempre superior ou igual a zero Euros
+	* calorias e quantidade de sal são sempre positivos ou zero
+	* o utilizador pode criar um prato sem indicar a informação nutricional
+
+

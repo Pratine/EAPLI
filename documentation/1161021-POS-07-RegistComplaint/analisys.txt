@@ -1,0 +1,30 @@
+---------------
+
+ANÁLISE
+
+---------------
+
+* O funcionário da caixa é que cria a reclamação.
+* Uma reclamação tem uma mensagem e pode estar associada a uma refeição e a um utilizador.
+* A identificação da refeição e do utilizador é opcional.
+* A mensagem é obrigatória.
+
+--------------
+
+Regras de Negócio
+
+--------------
+
+Um utilizador não pode avaliar a mesma refeição mais do que uma vez.
+A mensagem é uma "string".
+O funcionário pode criar a reclamação sem identificar a refeição nem o utilizador.
+O número do utilizador introduzido é um inteiro positivo.
+
+--------------
+
+TESTES UNITÁRIOS
+
+--------------
+
+* testMessageMustNotBeNullNorEmpty
+* testNumberCannotBeNegative

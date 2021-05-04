@@ -1,0 +1,4 @@
+Analysis UC01 Open POS
+
+The cashier opens a POS creating a Delivery Work Session with the time he desires or (by omission) the current time and teh POS the session was created.
+Saving the Work Session as well as it's state in the database.

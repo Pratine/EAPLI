@@ -1,0 +1,14 @@
+﻿	
+
+	TEST PLAN
+
+	_______________________________
+	CASO 16 BOOKING: Consulta de consumos calóricos
+	_______________________________
+
+	1. Fazer o login como 900330/Password1 (porque é um cafeteria user)
+	2. Escolher a opção Booking  >  Consult caloric intake in the selected period (opção 5)
+	3. Inserir data inicial no formato "yyyy/MM/dd"
+	4. Inserir data final no formato "yyyy/MM/dd"
+	5. Mostra o total de calorias consumidas pelo cafeteria user nas datas indicadas
+	6. Escolher 0 para voltar ao menu anterior

@@ -1,0 +1,15 @@
+	
+
+	TEST PLAN
+
+	_______________________________
+	KITCHEN #16: Close Menu Plan
+	_______________________________
+
+	1. Correr ecafeteria.app.bootstrap
+	2. Fazer o login como kitchen/Password1 em ecafeteria.app.backoffice.console
+	3. Escolher a opção  6. Traceability
+	4. Escolher a opção 3. Close Menu Plan
+	5. Inserir a data 15-10-2017
+	6. Inserir 1 para fechar o Menu Plan
+	7. Verificar na Base De Dados que está fechado.

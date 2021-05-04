@@ -1,0 +1,36 @@
+------Booking------
+01 - Salvador Gouveia
+04 - João Santos
+05 - João Lopes
+06 - Francisco Barril
+07 - Gonçalo Reis
+09 -
+11 - Pedro Ennes
+17 -
+
+
+------Kitchen------
+02 - Pedro Quintã
+03 - Maria Simões
+04 - Guilherme Aleluia
+14 - João Ribeiro
+16 - João Alves
+
+
+------POS------
+01 - Rafael Fontes
+02 - Diogo Madureira
+03 - Vitor Cardoso
+04 - Francisco Moreira
+05 - Bruno Mendonça
+
+
+------Menu------
+03 - Joaquim Pereira
+04 - 
+06 - André Júlio
+
+
+------Admin------
+04 - Henrique Costa
+07 - 

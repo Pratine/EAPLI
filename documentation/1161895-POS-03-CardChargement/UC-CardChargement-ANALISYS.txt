@@ -1,0 +1,5 @@
+Analisys - UC - Card Chargement
+
+The POS user asks the Cafeteria User for his mecanographic number and the amount to be charged.
+The system will then get the MovementsRepository and create a new one.
+Then the cafeteria user's credits will be updated and the changes are saved in the database.

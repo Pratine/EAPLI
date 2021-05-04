@@ -1,0 +1,17 @@
+	
+
+	TEST PLAN
+
+	_______________________________
+	BOOKING #12: View Credits
+	_______________________________
+
+	1. Correr ecafeteria.app.bootstrap
+	2. Fazer o login como cashier/Password1 em ecafeteria.app.pos.console
+	3. Escolher a opção Sales
+	4. Escolher a opção Card Chargement
+	5. Inserir o numero mecanografico 900330
+	6. Inserir os creditos desejados
+	7. Fazer o login como 900330/Password1 em ecafeteria.app.user.console
+	8. Verificar se os creditos foram adicionados a conta
+	9. Verificar se o movimento foi adicionado na base de dados na tabela MOVEMENTS

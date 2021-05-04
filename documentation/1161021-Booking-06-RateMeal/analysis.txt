@@ -1,0 +1,25 @@
+---------
+ ANÁLISE
+---------
+
+O cliente utiliza a aplicação destinada aos utilizadores para efetuar o rating de uma refeição .
+O rating de uma refeição é caracterizado por um número de 1 a 5 (1-Muito Mau , 5- Muito Bom) e pode incluir um comentário (opcional).
+O rating de uma refeição tem sempre uma avaliação de 1 a 5.
+
+-------------------
+ REGRAS DE NEGÓCIO
+-------------------
+
+Uma refeição só pode ter um rating.
+O numúero tem de ser entre 1 e 5 .
+O comentário é opcional.
+A refeição a que o rating se refere tem de já ter sido consumida pelo utilizador.
+
+------------------
+ TESTES UNITÁRIOS
+------------------
+A refeição não pode ter mais que um rating.
+É obrigatório inserir um número de 1 a 5, não pode ser vazio.
+
+ 
+ 

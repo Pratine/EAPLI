@@ -1,0 +1,20 @@
+﻿ANÁLISE
+---------
+
+O cliente utiliza a aplicação destinada aos utilizadores para consultar as suas reservas até a uma data requisitada.
+A refeição (meal) de uma reserva (booking) é caracterizada por uma data.
+
+-------------------
+ REGRAS DE NEGÓCIO
+-------------------
+
+Uma refeição só pode ter uma data.
+O intervalo de tempo para a consulta é definido pelo cliente, quando este insere o número de dias.
+O cliente apenas pode consultar reservas de refeições futuras que estejam compreendidas no intervalo definido.
+
+------------------
+ TESTES UNITÁRIOS
+------------------
+É obrigatório inserir um número de dias.
+O número de dias tem de ser diferente de 0.
+Tem haver pelo menos uma reserva de uma refeição no intervalo pedido para ser mostrada a lista de reservas.

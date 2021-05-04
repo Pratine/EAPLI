@@ -1,0 +1,4 @@
+Analysis - UC - View Available Meals
+
+The user chooses to view available meals or view undelivered bookings.
+The system presents the user the available meals or undelivered booking depending the user's choice.

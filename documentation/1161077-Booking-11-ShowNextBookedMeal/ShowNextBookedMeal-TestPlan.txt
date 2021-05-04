@@ -1,0 +1,7 @@
+﻿TEST PLAN
+--------------------------
+BOOKING 11 - SHOW NEXT BOOKED MEAL
+
+1. Correr o eapli.ecafeteria.app.user.console.ECafeteriaUserApp
+2. Fazer login com um ECafeteriaUser e password Password1
+3. Ver ao lado do saldo a próxima meal reservada pelo user

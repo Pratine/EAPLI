@@ -1,0 +1,23 @@
+TEST PLAN 
+
+Rate MeaL
+
+1. Fazer o login com nicknamke: 900330 e password: Password1 .
+2. Escolher a op��o de Ratings.
+3. Escolher a op��o de registo do rating de uma refei��o.
+4. Introduzir a data 2018/04/22.
+5. Introduzir o tipo de refei��o "dinner".
+6. Escolha a prrimeira refei��o (inserir 0).
+7. Introduzir o rating 5.
+8. Introduzir 1 para fazer um coment�rio.
+Rate Meal
+
+1. Fazer o login com nicknamke: 900330 e password: Password1 .
+2. Escolher a opção de Ratings.
+3. Escolher a opção de registo do rating de uma refeição.
+4. Introduzir a data 2018/04/22.
+5. Introduzir o tipo de refeição "dinner".
+6. Escolha a prrimeira refeição (inserir 0).
+7. Introduzir o rating 5.
+8. Introduzir 1 para fazer um comentário.
+9. Introduzir "Muito bom".
